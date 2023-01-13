@@ -16,6 +16,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{A6477C1C-E38F-496E-B046-BCF38FED4AFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Discount", "Discount", "{58C864EF-8040-4695-AE9B-17BBD52F41D5}"
+	ProjectSection(SolutionItems) = preProject
+		Services\Basket\Basket.API\Dockerfile = Services\Basket\Basket.API\Dockerfile
+	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Discount.API", "Services\Discount\Discount.API\Discount.API.csproj", "{437E3081-B5E9-48DF-92A8-5113BF62DB66}"
 EndProject
