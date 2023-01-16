@@ -52,8 +52,8 @@ namespace Shopping.Aggregator.Controllers
                 Orders = orders
             };
 
-            return Ok(shoppingModel);
             // Return root ShoppingModel Dto class wich including all responses
+            return Ok(shoppingModel);
         }
     }
 }
